@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar Viagem | Companhia de Viagem</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="tela pagina-busca">
+        <header class="cabecalho-app cabecalho-app--voltar">
+            <a href="home.html" class="voltar" aria-label="Voltar">&larr;</a>
+            <h1>Buscar viagem</h1>
+        </header>
+
+        <nav aria-label="Tipo de viagem">
+            <ul class="abas">
+                <li><button type="button" class="aba-ativa">Ida e volta</button></li>
+                <li><button type="button">Só ida</button></li>
+                <li><button type="button">Multidestinos</button></li>
+            </ul>
+        </nav>
+
+         <main>
+            <form>
+                <fieldset class="grupo-form">
+                    <legend class="visualmente-oculto">Rota</legend>
+
+                    <div class="campo">
+                        <div>
+                            <label for="origem">De onde?</label>
+                            <p>São Paulo (CGH)</p>
+                        </div>
+                        <span class="icone-direita">📍</span>
+                    </div>
+
+                    <div class="campo">
+                        <div>
+                            <label for="destino">Para onde?</label>
+                            <p>Rio de Janeiro (SDU)</p>
+                        </div>
+                        <span class="icone-direita">📍</span>
+                    </div>
+                </fieldset>
+
+                <fieldset class="grupo-form">
+                    <legend class="visualmente-oculto">Datas</legend>
+
+                    <div class="campo">
+                        <div>
+                            <label for="data-ida">Data de ida</label>
+                            <p>10/08/2026</p>
+                        </div>
+                        <span class="icone-direita">📅</span>
+                    </div>
+
+                    <div class="campo">
+                        <div>
+                            <label for="data-volta">Data de volta (opcional)</label>
+                            <p>11/08/2026</p>
+                        </div>
+                        <span class="icone-direita">📅</span>
+                    </div>
+                </fieldset>
+
+                <fieldset class="grupo-form">
+                    <legend class="visualmente-oculto">Passageiros e classe</legend>
+
+                    <div class="campo">
+                        <div>
+                            <label for="passageiros">Passageiros</label>
+                            <p>1 Passageiro</p>
+                        </div>
+                        <span class="icone-direita">👤</span>
+                    </div>
+
+                    <div class="campo">
+                        <div>
+                            <label for="classe">Classe</label>
+                            <p>Executiva</p>
+                        </div>
+                        <span class="icone-direita">⌄</span>
+                    </div>
+                </fieldset>
+
+                <a href="viagens.html" class="botao botao--escuro">Buscar voos</a>
+            </form>
+        </main>
+
+        <nav class="nav-inferior" aria-label="Navegação principal">
+            <ul>
+                <li><a href="home.html"><span class="icone">🏠</span>Início</a></li>
+                <li><a href="buscar.html" class="ativo"><span class="icone">🔍</span>Buscar</a></li>
+                <li><a href="viagens.html"><span class="icone">🧳</span>Viagens</a></li>
+                <li><a href="perfil.html"><span class="icone">👤</span>Perfil</a></li>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>
